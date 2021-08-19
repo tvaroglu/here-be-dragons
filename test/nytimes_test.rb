@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'pry'
-require './lib/nytimes'
+require_relative '../lib/nytimes'
 
 class NytimesTest < Minitest::Test
   attr_reader :hash
